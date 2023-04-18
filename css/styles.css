@@ -37,9 +37,6 @@
   letter-spacing: 0.02em;
   color: var(--color-grey);
 }
-/* Навігація */
-.nav-menu {
-}
 
 /* Логотип */
 .web-logo {
@@ -96,6 +93,7 @@
   background-color: var(--color-grey);
   line-height: 1.07;
 }
+/* Hero */
 .main-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -126,7 +124,7 @@
   background: #404bbf;
   cursor: pointer;
 }
-
+/* Portfolio Button */
 .button-list {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -190,10 +188,9 @@
 .our-team {
   background-color: #f4f4fd;
   line-height: 1.11;
-  text-align: center;
 }
-
-.items-work {
+/* text-align: center; */
+.list-work {
   background-color: #ffffff;
 }
 .image {
