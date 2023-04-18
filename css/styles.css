@@ -12,7 +12,6 @@
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
-
 .list {
   list-style: none;
 }
@@ -25,27 +24,29 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: var(--color-white);
 }
 .header {
-}
-/* Навігація */
-.nav-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
+/* Навігація */
+.nav-menu {
+}
+
 /* Логотип */
 .web-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   color: #2e2f42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -55,47 +56,57 @@
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.7;
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  line-height: 1.17;
 }
-.menu-list {
+
+.menu-list:hover,
+.menu-list:focus {
+  color: #404bbf;
 }
-.item {
-}
+
 /* Адреса */
 .address {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.adress .main {
+
+.adress-list {
+  color: #434455;
 }
+.mail:hover,
+.mail:focus {
+  color: #404bbf;
+}
+
 .section {
 }
 .main-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.08;
   letter-spacing: 0.02em;
   background: #2e2f42;
   color: #ffffff;
+  text-align: center;
 }
 /* Кнопка */
 .button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -103,12 +114,18 @@
   background: #4d5ae5;
 }
 
+.button:hover,
+.button:focus {
+  background: #404bbf;
+  cursor: pointer;
+}
+
 .button-list {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -116,36 +133,55 @@
   color: #4d5ae5;
   background: #f4f4fd;
 }
+
+.button-list:hover,
+.button-focus {
+  background: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
 .company-items {
 }
 .items {
+  color: var(--color-grey);
+  background-color: #ffffff;
 }
 .title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 /* Про компанію */
 .company-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Приклади робіт */
 .title-work {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  color: var(--color-grey);
+}
+
+/* Наша команда */
+.our-team {
+  background-color: #f4f4fd;
+  line-height: 1.11;
+  text-align: center;
 }
 .image {
 }
@@ -160,11 +196,11 @@
 }
 
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
