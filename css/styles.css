@@ -63,6 +63,10 @@
   text-decoration: none;
   line-height: 1.17;
   color: var(--color-grey);
+  color: var(--color-iris);
+}
+.menu-list {
+  color: var(--color-grey);
 }
 
 .menu-list:hover,
@@ -97,7 +101,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   background: #2e2f42;
   color: #ffffff;
@@ -138,7 +142,7 @@
 }
 
 .button-list:hover,
-.button-focus {
+.button-list:focus {
   background: #404bbf;
   color: #ffffff;
   cursor: pointer;
@@ -167,6 +171,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 /* Приклади робіт */
 .title-work {
@@ -187,11 +192,17 @@
   line-height: 1.11;
   text-align: center;
 }
+
+.items-work {
+  background-color: #ffffff;
+}
 .image {
 }
 .img {
 }
 .text {
+  line-height: 1.5;
+  color: var(--color-slate);
 }
 /* Футер */
 .footer {
@@ -207,4 +218,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+web-logo-footer {
+  color: var(--color-iris);
 }
